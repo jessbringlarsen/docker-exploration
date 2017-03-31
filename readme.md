@@ -17,7 +17,7 @@ Start a container based on the image with:
     
     sudo docker run --name spring-application -p 8081:8080 -d gs-spring-boot-docker
      
-Verify by doing: `curl http://localhost:8080`
+Verify by doing: `curl http://localhost:8081`
 
 The `-p` option states that port 8080 on the container will be exposed on localhost on port 8081
 
