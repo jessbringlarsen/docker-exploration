@@ -6,7 +6,7 @@ Example project showing Dockerization of a Spring boot application.
 
 Users that need to interact with Docker needs to be added to the `Docker` group. To add an existing user to the Docker group:
 
-    sudo usermod -a -G [user]
+    sudo usermod -a -G docker [user]
 
 ## Build example application
     git clone https://github.com/spring-guides/gs-spring-boot-docker.git
